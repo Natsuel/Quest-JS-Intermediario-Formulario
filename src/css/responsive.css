@@ -1,0 +1,84 @@
+@media (min-width: 360px) and (max-width: 460px) {
+    body {
+        background-size: auto;
+    }
+
+    .main-element {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .text h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .text p {
+        width: 19rem;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .form {
+        width: 18rem;
+    }
+
+    .form .inputs {
+        width: 15.5rem;
+    }
+
+    .form .inputs input {
+        width: 14rem;
+    }
+
+    .form .inputs textarea {
+        width: 14rem;
+    }
+
+    .form #btn-enviar {
+        width: 15.5rem;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 900px) {
+    body {
+        background-size: cover;
+        height: auto;
+    }
+
+    .main-element {
+        width: auto;
+        height: auto;
+    }
+
+    .text h3 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .text p {
+        width: 25rem;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .form {
+        width: 22rem;
+    }
+
+    .form .inputs {
+        width: 18.5rem;
+    }
+
+    .form .inputs input {
+        width: 18rem;
+    }
+
+    .form .inputs textarea {
+        width: 18rem;
+    }
+
+    .form #btn-enviar {
+        width: 20rem;
+    }
+}

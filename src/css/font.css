@@ -1,0 +1,44 @@
+.text h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    color: #fff;
+    line-height: 35px;
+}
+
+.text p {
+    font-family: "Roboto", sans-serif;
+    width: 26.5rem;
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.form-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    margin-left: 2px;
+    font-weight: 400;
+}
+
+.inputs #name::placeholder, .inputs #email::placeholder, .inputs #tel::placeholder, .inputs #msg::placeholder {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    opacity: 60%;
+}
+
+.inputs #msg {
+    padding: 10px;
+}
+
+.form #btn-enviar {
+    font-family: "Roboto", sans-serif;
+}
+
+.alerta {
+    font-family: "Roboto", sans-serif;
+    color: red;
+    font-size: 12px;
+    margin-left: 12px;
+}
