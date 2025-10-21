@@ -78,3 +78,8 @@ textarea:focus {
     font-size: 16px;
     cursor: pointer;
 }
+
+.form #btn-enviar:hover {
+    background-color: #4ffc5b;
+    transition: ease-in-out 0.6s;
+}

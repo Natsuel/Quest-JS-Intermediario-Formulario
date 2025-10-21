@@ -20,18 +20,18 @@
         </div>
 
         <div class="form">
-            <form class="inputs">
-                <input type="text" name="Nome Completo" placeholder="Nome completo *" id="name">
+            <form autocomplete="off" class="inputs">
+                <input class="campo" type="text" name="Nome Completo" placeholder="Nome completo *" id="name">
 
-                <input type="email" name="Email" placeholder="Email *" id="email">
+                <input class="campo" type="email" name="Email" placeholder="Email *" id="email">
 
-                <input class="mask" type="tel" name="Telefone" placeholder="Telefone *" id="tel">
+                <input class="mask campo" type="tel" name="Telefone" placeholder="Telefone *" id="tel">
 
-                <textarea rows="5" name="message" placeholder="Mensagem *" id="msg"></textarea>
+                <textarea class="campo" rows="5" name="message" placeholder="Mensagem *" id="msg"></textarea>
 
                 <p class="form-text">*campos obrigatórios</p>
             </form>
-            <button id="btn-enviar" type="button">Enviar</button>
+            <button id="btn-enviar" type="submit">Enviar</button>
         </div>
     </main>
 
